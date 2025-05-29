@@ -94,7 +94,11 @@
 			type="list"
 			label="JGLOBAL_SORT_BY"
 			onchange="this.form.submit();"
+<<<<<<< HEAD
 			default="a.id DESC"
+=======
+			default="a.title ASC"
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 			validate="options"
 			>
 			<option value="">JGLOBAL_SORT_BY</option>

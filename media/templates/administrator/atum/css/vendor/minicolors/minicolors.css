@@ -4,7 +4,11 @@
 }
 
 .minicolors-sprite {
+<<<<<<< HEAD
   background-image: url("jquery.minicolors.png?v=174769");
+=======
+  background-image: url("jquery.minicolors.png?v=174420");
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 }
 
 .minicolors-swatch {

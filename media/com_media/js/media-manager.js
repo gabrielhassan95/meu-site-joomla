@@ -7487,7 +7487,11 @@ var script$v = {
 
 const _hoisted_1$v = { key: 0 };
 const _hoisted_2$k = ["src", "width", "height"];
+<<<<<<< HEAD
 const _hoisted_3$h = ["data-type"];
+=======
+const _hoisted_3$g = ["data-type"];
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 const _hoisted_4$b = {
   scope: "row",
   class: "name"
@@ -7519,7 +7523,11 @@ function render$v(_ctx, _cache, $props, $setup, $data, $options) {
           key: 1,
           class: "type",
           "data-type": $props.item.extension
+<<<<<<< HEAD
         }, null, 8 /* PROPS */, _hoisted_3$h)),
+=======
+        }, null, 8 /* PROPS */, _hoisted_3$g)),
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
     createBaseVNode("th", _hoisted_4$b, toDisplayString($props.item.name), 1 /* TEXT */),
     createBaseVNode("td", _hoisted_5$a, [
       createTextVNode(toDisplayString($options.size), 1 /* TEXT */),
@@ -7561,7 +7569,11 @@ var script$u = {
 
 const _hoisted_1$u = { class: "table media-browser-table" };
 const _hoisted_2$j = { class: "visually-hidden" };
+<<<<<<< HEAD
 const _hoisted_3$g = { class: "media-browser-table-head" };
+=======
+const _hoisted_3$f = { class: "media-browser-table-head" };
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 const _hoisted_4$a = {
   class: "name",
   scope: "col"
@@ -7588,7 +7600,11 @@ function render$u(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (openBlock(), createElementBlock("table", _hoisted_1$u, [
     createBaseVNode("caption", _hoisted_2$j, toDisplayString(_ctx.sprintf('COM_MEDIA_BROWSER_TABLE_CAPTION', $props.currentDirectory)), 1 /* TEXT */),
+<<<<<<< HEAD
     createBaseVNode("thead", _hoisted_3$g, [
+=======
+    createBaseVNode("thead", _hoisted_3$f, [
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
       createBaseVNode("tr", null, [
         _cache[5] || (_cache[5] = createBaseVNode("th", {
           class: "type",
@@ -8191,7 +8207,11 @@ var script$m = {
 
 const _hoisted_1$m = ["aria-label", "title"];
 const _hoisted_2$i = ["aria-label"];
+<<<<<<< HEAD
 const _hoisted_3$f = {
+=======
+const _hoisted_3$e = {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   "aria-hidden": "true",
   class: "media-browser-actions-item-name"
 };
@@ -8243,7 +8263,11 @@ function render$m(_ctx, _cache, $props, $setup, $data, $options) {
             "aria-orientation": "vertical",
             "aria-label": _ctx.sprintf('COM_MEDIA_ACTIONS_TOOLBAR_LABEL',(_ctx.$parent.$props.item.name))
           }, [
+<<<<<<< HEAD
             createBaseVNode("span", _hoisted_3$f, [
+=======
+            createBaseVNode("span", _hoisted_3$e, [
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
               createBaseVNode("strong", null, toDisplayString(_ctx.$parent.$props.item.name), 1 /* TEXT */)
             ]),
             ($props.previewable)
@@ -8625,7 +8649,11 @@ var script$j = {
 
 const _hoisted_1$j = ["title"];
 const _hoisted_2$g = { class: "image-background" };
+<<<<<<< HEAD
 const _hoisted_3$e = ["src", "alt", "loading", "width", "height"];
+=======
+const _hoisted_3$d = ["src", "alt", "loading", "width", "height"];
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 const _hoisted_4$9 = {
   key: 1,
   class: "icon-eye-slash image-placeholder",
@@ -8659,7 +8687,11 @@ function render$j(_ctx, _cache, $props, $setup, $data, $options) {
               width: $options.width,
               height: $options.height,
               onLoad: _cache[0] || (_cache[0] = (...args) => ($options.setSize && $options.setSize(...args)))
+<<<<<<< HEAD
             }, null, 40 /* PROPS, NEED_HYDRATION */, _hoisted_3$e))
+=======
+            }, null, 40 /* PROPS, NEED_HYDRATION */, _hoisted_3$d))
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
           : createCommentVNode("v-if", true),
         (!$options.getURL)
           ? (openBlock(), createElementBlock("span", _hoisted_4$9))
@@ -9069,6 +9101,7 @@ const _hoisted_1$f = {
   key: 0,
   class: "media-infobar"
 };
+<<<<<<< HEAD
 const _hoisted_2$e = { class: "media-infobar-inner" };
 const _hoisted_3$d = {
   key: 0,
@@ -9082,12 +9115,27 @@ const _hoisted_8$2 = { key: 3 };
 const _hoisted_9$1 = { key: 4 };
 const _hoisted_10$1 = { key: 5 };
 const _hoisted_11$1 = { key: 6 };
+=======
+const _hoisted_2$e = {
+  key: 0,
+  class: "text-center"
+};
+const _hoisted_3$c = { key: 1 };
+const _hoisted_4$8 = { key: 0 };
+const _hoisted_5$7 = { key: 1 };
+const _hoisted_6$6 = { key: 2 };
+const _hoisted_7$4 = { key: 3 };
+const _hoisted_8$2 = { key: 4 };
+const _hoisted_9$1 = { key: 5 };
+const _hoisted_10$1 = { key: 6 };
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 
 function render$f(_ctx, _cache, $props, $setup, $data, $options) {
   return (openBlock(), createBlock(Transition, { name: "infobar" }, {
     default: withCtx(() => [
       ($options.showInfoBar && $options.item)
         ? (openBlock(), createElementBlock("div", _hoisted_1$f, [
+<<<<<<< HEAD
             createBaseVNode("div", _hoisted_2$e, [
               createBaseVNode("span", {
                 class: "infobar-close",
@@ -9126,6 +9174,44 @@ function render$f(_ctx, _cache, $props, $setup, $data, $options) {
                     createBaseVNode("dd", null, toDisplayString($options.item.extension || '-'), 1 /* TEXT */)
                   ]))
             ])
+=======
+            createBaseVNode("span", {
+              class: "infobar-close",
+              onClick: _cache[0] || (_cache[0] = $event => ($options.hideInfoBar()))
+            }, "×"),
+            createBaseVNode("h2", null, toDisplayString($options.item.name), 1 /* TEXT */),
+            ($options.item.path === '/')
+              ? (openBlock(), createElementBlock("div", _hoisted_2$e, _cache[1] || (_cache[1] = [
+                  createBaseVNode("span", { class: "icon-file placeholder-icon" }, null, -1 /* HOISTED */),
+                  createTextVNode(" Select file or folder to view its details. ")
+                ])))
+              : (openBlock(), createElementBlock("dl", _hoisted_3$c, [
+                  createBaseVNode("dt", null, toDisplayString(_ctx.translate('COM_MEDIA_FOLDER')), 1 /* TEXT */),
+                  createBaseVNode("dd", null, toDisplayString($options.item.directory), 1 /* TEXT */),
+                  createBaseVNode("dt", null, toDisplayString(_ctx.translate('COM_MEDIA_MEDIA_TYPE')), 1 /* TEXT */),
+                  ($options.item.type === 'file')
+                    ? (openBlock(), createElementBlock("dd", _hoisted_4$8, toDisplayString(_ctx.translate('COM_MEDIA_FILE')), 1 /* TEXT */))
+                    : ($options.item.type === 'dir')
+                      ? (openBlock(), createElementBlock("dd", _hoisted_5$7, toDisplayString(_ctx.translate('COM_MEDIA_FOLDER')), 1 /* TEXT */))
+                      : (openBlock(), createElementBlock("dd", _hoisted_6$6, " - ")),
+                  createBaseVNode("dt", null, toDisplayString(_ctx.translate('COM_MEDIA_MEDIA_DATE_CREATED')), 1 /* TEXT */),
+                  createBaseVNode("dd", null, toDisplayString($options.item.create_date_formatted), 1 /* TEXT */),
+                  createBaseVNode("dt", null, toDisplayString(_ctx.translate('COM_MEDIA_MEDIA_DATE_MODIFIED')), 1 /* TEXT */),
+                  createBaseVNode("dd", null, toDisplayString($options.item.modified_date_formatted), 1 /* TEXT */),
+                  createBaseVNode("dt", null, toDisplayString(_ctx.translate('COM_MEDIA_MEDIA_DIMENSION')), 1 /* TEXT */),
+                  ($options.item.width || $options.item.height)
+                    ? (openBlock(), createElementBlock("dd", _hoisted_7$4, toDisplayString($options.item.width) + "px * " + toDisplayString($options.item.height) + "px ", 1 /* TEXT */))
+                    : (openBlock(), createElementBlock("dd", _hoisted_8$2, " - ")),
+                  createBaseVNode("dt", null, toDisplayString(_ctx.translate('COM_MEDIA_MEDIA_SIZE')), 1 /* TEXT */),
+                  ($options.item.size)
+                    ? (openBlock(), createElementBlock("dd", _hoisted_9$1, toDisplayString(($options.item.size / 1024).toFixed(2)) + " KB ", 1 /* TEXT */))
+                    : (openBlock(), createElementBlock("dd", _hoisted_10$1, " - ")),
+                  createBaseVNode("dt", null, toDisplayString(_ctx.translate('COM_MEDIA_MEDIA_MIME_TYPE')), 1 /* TEXT */),
+                  createBaseVNode("dd", null, toDisplayString($options.item.mime_type), 1 /* TEXT */),
+                  createBaseVNode("dt", null, toDisplayString(_ctx.translate('COM_MEDIA_MEDIA_EXTENSION')), 1 /* TEXT */),
+                  createBaseVNode("dd", null, toDisplayString($options.item.extension || '-'), 1 /* TEXT */)
+                ]))
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
           ]))
         : createCommentVNode("v-if", true)
     ]),
@@ -9354,11 +9440,19 @@ const _hoisted_1$e = {
   class: "pt-1"
 };
 const _hoisted_2$d = { class: "alert alert-info m-3" };
+<<<<<<< HEAD
 const _hoisted_3$c = { class: "visually-hidden" };
 const _hoisted_4$7 = {
   key: 1,
   class: "text-center",
   style: {"display":"grid","justify-content":"center","align-content":"center","color":"var(--gray-200)","height":"100%"}
+=======
+const _hoisted_3$b = { class: "visually-hidden" };
+const _hoisted_4$7 = {
+  key: 1,
+  class: "text-center",
+  style: {"display":"grid","justify-content":"center","align-content":"center","margin-top":"-1rem","color":"var(--gray-200)","height":"100%"}
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 };
 const _hoisted_5$6 = { class: "media-dragoutline" };
 const _hoisted_6$5 = {
@@ -9387,7 +9481,11 @@ function render$e(_ctx, _cache, $props, $setup, $data, $options) {
               class: "icon-info-circle",
               "aria-hidden": "true"
             }, null, -1 /* HOISTED */)),
+<<<<<<< HEAD
             createBaseVNode("span", _hoisted_3$c, toDisplayString(_ctx.translate('NOTICE')), 1 /* TEXT */),
+=======
+            createBaseVNode("span", _hoisted_3$b, toDisplayString(_ctx.translate('NOTICE')), 1 /* TEXT */),
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
             createTextVNode(" " + toDisplayString(_ctx.translate('JGLOBAL_NO_MATCHING_RESULTS')), 1 /* TEXT */)
           ])
         ]))
@@ -9538,7 +9636,11 @@ const _hoisted_1$d = {
   role: "group"
 };
 const _hoisted_2$c = ["aria-level", "aria-setsize", "aria-posinset", "tabindex", "onClick", "onKeyup"];
+<<<<<<< HEAD
 const _hoisted_3$b = { class: "item-icon" };
+=======
+const _hoisted_3$a = { class: "item-icon" };
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 const _hoisted_4$6 = { class: "item-name" };
 
 function render$d(_ctx, _cache, $props, $setup, $data, $options) {
@@ -9568,7 +9670,11 @@ function render$d(_ctx, _cache, $props, $setup, $data, $options) {
             _cache[0] || (_cache[0] = withKeys($event => ($options.moveFocusToParentElement()), ["left"]))
           ]
         }, [
+<<<<<<< HEAD
           createBaseVNode("span", _hoisted_3$b, [
+=======
+          createBaseVNode("span", _hoisted_3$a, [
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
             createBaseVNode("span", {
               class: normalizeClass($options.iconClass(item))
             }, null, 2 /* CLASS */)
@@ -9662,7 +9768,11 @@ var script$c = {
 
 const _hoisted_1$c = ["aria-labelledby"];
 const _hoisted_2$b = ["aria-setsize", "tabindex"];
+<<<<<<< HEAD
 const _hoisted_3$a = { class: "item-name" };
+=======
+const _hoisted_3$9 = { class: "item-name" };
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 
 function render$c(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_MediaTree = resolveComponent("MediaTree");
@@ -9692,7 +9802,11 @@ function render$c(_ctx, _cache, $props, $setup, $data, $options) {
             _cache[1] || (_cache[1] = withKeys((...args) => ($options.onDriveClick && $options.onDriveClick(...args)), ["enter"]))
           ]
         }, [
+<<<<<<< HEAD
           createBaseVNode("span", _hoisted_3$a, toDisplayString($props.drive.displayName), 1 /* TEXT */)
+=======
+          createBaseVNode("span", _hoisted_3$9, toDisplayString($props.drive.displayName), 1 /* TEXT */)
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
         ], 40 /* PROPS, NEED_HYDRATION */, _hoisted_2$b),
         createVNode(_component_MediaTree, {
           ref: $props.drive.root,
@@ -9732,13 +9846,18 @@ var script$b = {
 };
 
 const _hoisted_1$b = { class: "media-disk" };
+<<<<<<< HEAD
 const _hoisted_2$a = { open: "" };
 const _hoisted_3$9 = ["id"];
+=======
+const _hoisted_2$a = ["id"];
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 
 function render$b(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_MediaDrive = resolveComponent("MediaDrive");
 
   return (openBlock(), createElementBlock("div", _hoisted_1$b, [
+<<<<<<< HEAD
     createBaseVNode("details", _hoisted_2$a, [
       createBaseVNode("summary", null, [
         createBaseVNode("h2", {
@@ -9756,6 +9875,21 @@ function render$b(_ctx, _cache, $props, $setup, $data, $options) {
         }, null, 8 /* PROPS */, ["disk-id", "counter", "drive", "total"]))
       }), 128 /* KEYED_FRAGMENT */))
     ])
+=======
+    createBaseVNode("h2", {
+      id: $options.diskId,
+      class: "media-disk-name"
+    }, toDisplayString($props.disk.displayName), 9 /* TEXT, PROPS */, _hoisted_2$a),
+    (openBlock(true), createElementBlock(Fragment, null, renderList($props.disk.drives, (drive, index) => {
+      return (openBlock(), createBlock(_component_MediaDrive, {
+        key: index,
+        "disk-id": $options.diskId,
+        counter: index,
+        drive: drive,
+        total: $props.disk.drives.length
+      }, null, 8 /* PROPS */, ["disk-id", "counter", "drive", "total"]))
+    }), 128 /* KEYED_FRAGMENT */))
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   ]))
 }
 

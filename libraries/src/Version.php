@@ -55,7 +55,11 @@ final class Version
      * @var    integer
      * @since  3.8.0
      */
+<<<<<<< HEAD
     public const PATCH_VERSION = 1;
+=======
+    public const PATCH_VERSION = 0;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 
     /**
      * Extra release version info.
@@ -90,7 +94,11 @@ final class Version
      * @var    string
      * @since  3.5
      */
+<<<<<<< HEAD
     public const RELDATE = '27-May-2025';
+=======
+    public const RELDATE = '15-April-2025';
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 
     /**
      * Release time.

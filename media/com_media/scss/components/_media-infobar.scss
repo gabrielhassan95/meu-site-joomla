@@ -6,6 +6,7 @@ $fa-css-prefix:    fa;
   top: 0;
   inset-inline-end: 0;
   bottom: 0;
+<<<<<<< HEAD
   float: none;
   width: 25%;
   background-color: $info-bg;
@@ -14,11 +15,24 @@ $fa-css-prefix:    fa;
     top: 120px;
     padding: $gutter-width;
   }
+=======
+  z-index: 4;
+  float: none;
+  width: 25%;
+  padding: $gutter-width;
+  overflow-y: auto;
+  background-color: $info-bg;
+  border-inline-start: 1px solid $border-color;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   h2 {
     padding-block-start: 8px;
     padding-block-end: 8px;
     padding-inline-start: ($gutter-width - 5px);
+<<<<<<< HEAD
     padding-inline-end: ($gutter-width + 20px);
+=======
+    padding-inline-end: ($gutter-width + 15px);
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
     margin: (-$gutter-width) (-$gutter-width) $gutter-width;
     font-weight: normal;
     word-wrap: break-word;

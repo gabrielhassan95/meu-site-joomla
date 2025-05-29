@@ -7,10 +7,17 @@
 }
 
 .switcher input {
+<<<<<<< HEAD
   top: 0;
   z-index: 2;
   cursor: pointer;
   opacity: 0;
+=======
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0;
+  top: 0;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   width: 62px;
   height: 28px;
   margin: 0;
@@ -38,8 +45,13 @@
 }
 
 .switcher label {
+<<<<<<< HEAD
   margin-bottom: 0;
   text-align: start;
+=======
+  text-align: start;
+  margin-bottom: 0;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   width: auto;
   min-width: 6rem;
   height: 100%;

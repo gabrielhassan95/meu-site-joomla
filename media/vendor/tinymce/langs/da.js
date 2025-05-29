@@ -120,7 +120,11 @@ tinymce.addI18n('da',{
 "Source": "Kilde",
 "Dimensions": "Dimensioner",
 "Constrain proportions": "Behold propertioner",
+<<<<<<< HEAD
 "General": "Generelt",
+=======
+"General": "Generet",
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 "Advanced": "Avanceret",
 "Style": "Stil",
 "Vertical space": "Lodret afstand",

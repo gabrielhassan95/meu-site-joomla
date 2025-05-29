@@ -422,6 +422,15 @@
       "version": "61f142"
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "field.calendar",
+      "type": "style",
+      "uri": "system/fields/calendar.css",
+      "version": "5da368"
+    },
+    {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
       "name": "field.passwordstrength",
       "type": "script",
       "uri": "system/fields/passwordstrength.min.js",
@@ -436,6 +445,7 @@
     },
     {
       "name": "field.calendar",
+<<<<<<< HEAD
       "type": "style",
       "uri": "system/fields/calendar.css",
       "version": "5da368"
@@ -448,6 +458,8 @@
     },
     {
       "name": "field.calendar",
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
       "type": "script",
       "uri": "system/fields/calendar.min.js",
       "attributes": {
@@ -456,6 +468,7 @@
       "dependencies": [
         "field.calendar.helper"
       ],
+<<<<<<< HEAD
       "version": "3221d3"
     },
     {
@@ -466,6 +479,15 @@
         "defer": true
       },
       "version": "01c1ec"
+=======
+      "version": "1903da"
+    },
+    {
+      "name": "field.calendar-rtl",
+      "type": "style",
+      "uri": "system/fields/calendar-rtl.css",
+      "version": "1e99b9"
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
     },
     {
       "name": "field.modal-fields",
@@ -482,6 +504,18 @@
       "version": "21a476"
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "field.color-slider",
+      "type": "script",
+      "uri": "system/fields/joomla-field-color-slider.min.js",
+      "attributes": {
+        "defer": true
+      },
+      "version": "01c1ec"
+    },
+    {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
       "name": "webcomponent.field-fancy-select",
       "type": "script",
       "uri": "system/fields/joomla-field-fancy-select.min.js",
@@ -492,7 +526,11 @@
         "choicesjs",
         "webcomponent.field-fancy-select-legacy"
       ],
+<<<<<<< HEAD
       "version": "aad668"
+=======
+      "version": "8fe001"
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
     },
     {
       "name": "webcomponent.field-media",

@@ -114,6 +114,7 @@ html[dir="rtl"] .infobar-leave-active {
 }
 
 .media-sidebar {
+<<<<<<< HEAD
   flex: 300px;
   padding: 1rem;
 }
@@ -127,6 +128,12 @@ html[dir="rtl"] .infobar-leave-active {
   }
 }
 
+=======
+  flex: 0 0 280px;
+  padding: 1rem;
+}
+
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 .media-breadcrumb {
   border-inline-start: 1px solid var(--template-bg-dark-7);
   background: none;
@@ -182,11 +189,19 @@ html[dir="rtl"] .infobar-leave-active {
 }
 
 .media-breadcrumb-item:before, .media-breadcrumb-item:after {
+<<<<<<< HEAD
   top: 0;
   bottom: 0;
   z-index: 2;
   border-top: 23px solid #0000;
   border-bottom: 23px solid #0000;
+=======
+  z-index: 2;
+  border-top: 23px solid #0000;
+  border-bottom: 23px solid #0000;
+  top: 0;
+  bottom: 0;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   border-inline-start: 10px solid #0000;
   width: 0;
   height: 0;
@@ -714,6 +729,7 @@ html[dir="rtl"] .infobar-leave-active {
 
 .media-infobar {
   top: 0;
+<<<<<<< HEAD
   inset-inline-end: 0;
   float: none;
   background-color: var(--com-media-manager-overlay-bg, var(--template-bg-dark-3));
@@ -726,6 +742,18 @@ html[dir="rtl"] .infobar-leave-active {
   padding: 15px;
   position: sticky;
   top: 120px;
+=======
+  z-index: 4;
+  float: none;
+  background-color: var(--com-media-manager-overlay-bg, var(--template-bg-dark-3));
+  border-inline-start: 1px solid var(--template-bg-dark-7);
+  inset-inline-end: 0;
+  width: 25%;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  overflow-y: auto;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 }
 
 .media-infobar h2 {
@@ -734,7 +762,11 @@ html[dir="rtl"] .infobar-leave-active {
   border-bottom: 1px solid #eee;
   margin: -15px -15px 15px;
   padding-block: 8px;
+<<<<<<< HEAD
   padding-inline: 10px 35px;
+=======
+  padding-inline: 10px 30px;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   font-weight: normal;
 }
 
@@ -764,11 +796,18 @@ html[dir="rtl"] .infobar-leave-active {
 }
 
 .infobar-close {
+<<<<<<< HEAD
   top: 0;
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   z-index: 2;
   color: var(--template-bg-dark-60);
   text-indent: 0;
   text-shadow: none;
+<<<<<<< HEAD
+=======
+  top: 0;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   padding: 5px 15px;
   font-size: 2.6rem;
   line-height: 2rem;
@@ -897,6 +936,7 @@ ul.media-tree:empty {
 }
 
 .media-disk {
+<<<<<<< HEAD
   margin-block-end: 10px;
   display: block;
   inset-inline-start: 0;
@@ -913,13 +953,24 @@ ul.media-tree:empty {
 
 .media-disk > details summary ~ * {
   margin-block-start: 0;
+=======
+  margin-bottom: 10px;
+  display: block;
+  position: sticky;
+  top: 75px;
+  left: 0;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 }
 
 .media-drive {
   background-color: var(--com-media-manager-content-bg, #fff);
   border: 1px solid var(--template-bg-dark-7);
+<<<<<<< HEAD
   max-height: 75vh;
   overflow: auto;
+=======
+  overflow-x: auto;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 }
 
 .media-drive + .media-drive {
@@ -983,18 +1034,26 @@ ul.media-tree:empty {
   content: none;
 }
 
+<<<<<<< HEAD
 .media-drive-name:hover, .media-drive-name:focus-visible {
+=======
+.media-drive-name:hover {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   cursor: pointer;
 }
 
 .media-tree-item a {
+<<<<<<< HEAD
   text-overflow: ellipsis;
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   white-space: nowrap;
   cursor: pointer;
   padding: 0 7px;
   line-height: 26px;
   text-decoration: none;
   display: block;
+<<<<<<< HEAD
   overflow: hidden;
 }
 
@@ -1003,6 +1062,11 @@ ul.media-tree:empty {
 }
 
 .media-tree-item.active > a:hover, .media-tree-item.active > a:focus-visible {
+=======
+}
+
+.media-tree-item.active > a:hover {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   background-color: var(--com-media-manager-tree-item-hover-bg, #e1e1e1);
   text-decoration: none;
 }
@@ -1021,8 +1085,17 @@ ul.media-tree:empty {
 }
 
 .item-name {
+<<<<<<< HEAD
   vertical-align: middle;
   font-size: .9em;
+=======
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-size: .9em;
+  display: inline-block;
+  overflow: hidden;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 }
 
 .media-tree-item.active > a .item-name {

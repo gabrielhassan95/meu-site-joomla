@@ -21,7 +21,11 @@
       "name": "com_media.mediamanager",
       "type": "style",
       "uri": "com_media/media-manager.min.css",
+<<<<<<< HEAD
       "version": "10164a"
+=======
+      "version": "e07005"
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
     },
     {
       "name": "com_media.mediamanager",
@@ -34,7 +38,11 @@
       "attributes": {
         "type": "module"
       },
+<<<<<<< HEAD
       "version": "461314"
+=======
+      "version": "7b98d2"
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
     }
   ]
 }

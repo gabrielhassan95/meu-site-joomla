@@ -492,8 +492,13 @@
 }
 
 .choices[data-type*="select-one"] .choices__button_joomla {
+<<<<<<< HEAD
   top: 50%;
   opacity: .5;
+=======
+  opacity: .5;
+  top: 50%;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   border-radius: 10em;
   width: 20px;
   height: 20px;

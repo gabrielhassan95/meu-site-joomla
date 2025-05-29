@@ -80,13 +80,20 @@ final class Joomla extends CMSPlugin implements SubscriberInterface
      * @param   string   $location    The URI for the site
      * @param   boolean  $enabled     If this site is enabled
      * @param   string   $extraQuery  Any additional request query to use when updating
+<<<<<<< HEAD
      * @param   int      $total       The total of update sites
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
      *
      * @return  void
      *
      * @since   1.6
      */
+<<<<<<< HEAD
     private function addUpdateSite($name, $type, $location, $enabled, $extraQuery = '', int $total = 1)
+=======
+    private function addUpdateSite($name, $type, $location, $enabled, $extraQuery = '')
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
     {
         // Look if the location is used already; doesn't matter what type you can't have two types at the same address, doesn't make sense
         $db    = $this->getDatabase();
@@ -101,6 +108,7 @@ final class Joomla extends CMSPlugin implements SubscriberInterface
 
         $update_site_id = (int) $db->loadResult();
 
+<<<<<<< HEAD
         // If it doesn't exist and there is an extension, use that site
         if (!$update_site_id && $this->eid && $total === 1) {
             $query->clear();
@@ -127,6 +135,9 @@ final class Joomla extends CMSPlugin implements SubscriberInterface
             }
         }
 
+=======
+        // If it doesn't exist, add it!
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
         if (!$update_site_id) {
             $enabled = (int) $enabled;
             $query->clear()
@@ -328,7 +339,11 @@ final class Joomla extends CMSPlugin implements SubscriberInterface
         if (\count($children)) {
             foreach ($children as $child) {
                 $attrs = $child->attributes();
+<<<<<<< HEAD
                 $this->addUpdateSite((string) $attrs['name'], (string) $attrs['type'], trim($child), true, $this->installer->extraQuery, \count($children));
+=======
+                $this->addUpdateSite((string) $attrs['name'], (string) $attrs['type'], trim($child), true, $this->installer->extraQuery);
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
             }
         } else {
             $data = trim((string) $updateservers);

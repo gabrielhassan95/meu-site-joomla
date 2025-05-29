@@ -134,7 +134,10 @@ window.customElements.define('joomla-field-fancy-select', class extends HTMLElem
       searchFloor: this.minTermLength,
       searchResultLimit: parseInt(this.select.dataset.maxResults, 10) || 10,
       renderChoiceLimit: parseInt(this.select.dataset.maxRender, 10) || -1,
+<<<<<<< HEAD
       renderSelectedChoices: 'always',
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
       shouldSort: false,
       fuseOptions: {
         threshold: 0.3 // Strict search

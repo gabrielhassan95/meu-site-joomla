@@ -255,13 +255,21 @@ abstract class UpdateAdapter extends AdapterInstance
             'headers' => $headers,
         ]);
         $dispatcher->dispatch('onInstallerBeforeUpdateSiteDownload', $event);
+<<<<<<< HEAD
         $newUrl  = $event->getArgument('url', $url);
+=======
+        $url     = $event->getArgument('url', $url);
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
         $headers = $event->getArgument('headers', $headers);
 
         // Http transport throws an exception when there's no response.
         try {
             $http     = HttpFactory::getHttp($httpOption);
+<<<<<<< HEAD
             $response = $http->get($newUrl, $headers, 20);
+=======
+            $response = $http->get($url, $headers, 20);
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
         } catch (\RuntimeException) {
             $response = null;
         }

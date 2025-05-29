@@ -1562,6 +1562,7 @@
         },
         {
             "name": "joomla/database",
+<<<<<<< HEAD
             "version": "3.4.2",
             "version_normalized": "3.4.2.0",
             "source": {
@@ -1573,6 +1574,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/joomla-framework/database/zipball/ddea28591d13a2a762eb2ed080afba422868d005",
                 "reference": "ddea28591d13a2a762eb2ed080afba422868d005",
+=======
+            "version": "3.4.1",
+            "version_normalized": "3.4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joomla-framework/database.git",
+                "reference": "e283eb17a68b96c340cae397cb77e723b2ea50a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joomla-framework/database/zipball/e283eb17a68b96c340cae397cb77e723b2ea50a6",
+                "reference": "e283eb17a68b96c340cae397cb77e723b2ea50a6",
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
                 "shasum": ""
             },
             "require": {
@@ -1605,7 +1619,11 @@
                 "joomla/registry": "To use the Database ServiceProviderInterface objects, install joomla/registry.",
                 "psr/log": "To use the LoggingMonitor, install psr/log."
             },
+<<<<<<< HEAD
             "time": "2025-05-10T11:36:16+00:00",
+=======
+            "time": "2025-04-06T13:57:03+00:00",
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
             "type": "joomla-package",
             "extra": {
                 "branch-alias": {
@@ -1632,7 +1650,11 @@
             ],
             "support": {
                 "issues": "https://github.com/joomla-framework/database/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/joomla-framework/database/tree/3.4.2"
+=======
+                "source": "https://github.com/joomla-framework/database/tree/3.4.1"
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
             },
             "funding": [
                 {

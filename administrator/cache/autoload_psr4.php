@@ -1,6 +1,11 @@
 <?php
 defined('_JEXEC') or die;
 return [
+<<<<<<< HEAD
+=======
+	'Astatonn\\Component\\Aniversariantes\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_aniversariantes/src'],
+	'Astatonn\\Component\\Aniversariantes\\Site\\' => [JPATH_SITE . '/components/com_aniversariantes/src'],
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 	'Joomla\\Component\\Actionlogs\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_actionlogs/src'],
 	'Joomla\\Component\\Admin\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_admin/src'],
 	'Joomla\\Component\\Associations\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_associations/src'],

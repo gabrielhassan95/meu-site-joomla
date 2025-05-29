@@ -45,6 +45,7 @@
 }
 
 .media-sidebar {
+<<<<<<< HEAD
   flex: 1 1 300px;
   padding: 1rem;
   @media (min-width: 768px) {
@@ -53,4 +54,8 @@
     align-self: flex-start;
     max-width: 300px;
   }
+=======
+  flex: 0 0 280px;
+  padding: 1rem;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 }

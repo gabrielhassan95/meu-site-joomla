@@ -163,8 +163,12 @@ class ActionlogModel extends BaseDatabaseModel implements UserFactoryAwareInterf
             $m              = [];
             $m['extension'] = Text::_($extension);
             $m['message']   = ActionlogsHelper::getHumanReadableLogMessage($message);
+<<<<<<< HEAD
             $tzOffset       = Factory::getApplication()->get('offset');
             $m['date']      = HTMLHelper::_('date', $message->log_date, 'Y-m-d H:i:s T', $tzOffset);
+=======
+            $m['date']      = HTMLHelper::_('date', $message->log_date, 'Y-m-d H:i:s T', 'UTC');
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
             $m['username']  = $username;
             $temp[]         = $m;
 

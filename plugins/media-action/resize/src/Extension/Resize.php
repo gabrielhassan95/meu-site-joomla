@@ -72,18 +72,27 @@ final class Resize extends MediaActionPlugin implements SubscriberInterface
 
         $imgObject = new Image(imagecreatefromstring($item->data));
 
+<<<<<<< HEAD
         $maxWidth  = (int) $this->params->get('batch_width', 0);
         $maxHeight = (int) $this->params->get('batch_height', 0);
         if (
             !(($maxWidth && $imgObject->getWidth() > $maxWidth)
             || ($maxHeight && $imgObject->getHeight() > $maxHeight))
         ) {
+=======
+        if ($imgObject->getWidth() < $this->params->get('batch_width', 0) && $imgObject->getHeight() < $this->params->get('batch_height', 0)) {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
             return;
         }
 
         $imgObject->resize(
+<<<<<<< HEAD
             $maxWidth,
             $maxHeight,
+=======
+            $this->params->get('batch_width', 0),
+            $this->params->get('batch_height', 0),
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
             false,
             Image::SCALE_INSIDE
         );

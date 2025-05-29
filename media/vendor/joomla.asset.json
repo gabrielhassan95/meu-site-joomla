@@ -1,7 +1,11 @@
 {
   "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
   "name": "joomla",
+<<<<<<< HEAD
   "version": "5.3.1",
+=======
+  "version": "5.3.0",
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   "description": "Joomla CMS",
   "license": "GPL-2.0-or-later",
   "assets": [
@@ -87,6 +91,7 @@
       "version": "1.1.7"
     },
     {
+<<<<<<< HEAD
       "name": "dragula",
       "type": "style",
       "uri": "vendor/dragula/dragula.min.css",
@@ -148,6 +153,8 @@
       "version": "9.1.0"
     },
     {
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
       "name": "cropperjs",
       "type": "style",
       "uri": "vendor/cropperjs/cropper.min.css",
@@ -184,6 +191,77 @@
       "version": "1.6.2"
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "choicesjs",
+      "type": "style",
+      "uri": "vendor/choicesjs/choices.min.css",
+      "package": "choices.js",
+      "version": "9.1.0"
+    },
+    {
+      "name": "choicesjs",
+      "type": "script",
+      "uri": "vendor/choicesjs/choices.min.js",
+      "attributes": {
+        "defer": true
+      },
+      "package": "choices.js",
+      "version": "9.1.0"
+    },
+    {
+      "name": "choicesjs",
+      "type": "preset",
+      "dependencies": [
+        "choicesjs#style",
+        "choicesjs#script"
+      ],
+      "package": "choices.js",
+      "version": "9.1.0"
+    },
+    {
+      "name": "focus-visible",
+      "type": "script",
+      "uri": "vendor/focus-visible/focus-visible.min.js",
+      "package": "focus-visible",
+      "version": "5.2.1"
+    },
+    {
+      "name": "dragula",
+      "type": "style",
+      "uri": "vendor/dragula/dragula.min.css",
+      "package": "dragula",
+      "version": "3.7.3"
+    },
+    {
+      "name": "dragula",
+      "type": "script",
+      "uri": "vendor/dragula/dragula.min.js",
+      "attributes": {
+        "defer": true
+      },
+      "package": "dragula",
+      "version": "3.7.3"
+    },
+    {
+      "name": "dragula",
+      "type": "preset",
+      "dependencies": [
+        "dragula#style",
+        "dragula#script"
+      ],
+      "package": "dragula",
+      "version": "3.7.3"
+    },
+    {
+      "name": "jquery",
+      "type": "script",
+      "uri": "vendor/jquery/jquery.min.js",
+      "package": "jquery",
+      "version": "3.7.1"
+    },
+    {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
       "name": "hotkeysjs",
       "type": "script",
       "uri": "vendor/hotkeysjs/hotkeys.min.js",
@@ -194,6 +272,7 @@
       "version": "3.13.9"
     },
     {
+<<<<<<< HEAD
       "name": "jquery",
       "type": "script",
       "uri": "vendor/jquery/jquery.min.js",
@@ -201,6 +280,8 @@
       "version": "3.7.1"
     },
     {
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
       "name": "jquery-migrate",
       "type": "script",
       "uri": "vendor/jquery-migrate/jquery-migrate.min.js",
@@ -211,6 +292,7 @@
       "version": "3.5.2"
     },
     {
+<<<<<<< HEAD
       "name": "webcomponent.joomla-alert",
       "type": "style",
       "uri": "vendor/joomla-custom-elements/joomla-alert.min.css",
@@ -279,6 +361,8 @@
       "version": "0.4.1"
     },
     {
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
       "name": "minicolors",
       "type": "style",
       "uri": "vendor/minicolors/jquery.minicolors.css",
@@ -356,6 +440,7 @@
       "version": "4.1.7"
     },
     {
+<<<<<<< HEAD
       "name": "sa11y",
       "type": "script",
       "uri": "vendor/sa11y/sa11y.esm.min.js",
@@ -378,6 +463,74 @@
       "uri": "vendor/sa11y/sa11y.min.css",
       "package": "sa11y",
       "version": "4.1.1"
+=======
+      "name": "webcomponent.joomla-alert",
+      "type": "style",
+      "uri": "vendor/joomla-custom-elements/joomla-alert.min.css",
+      "package": "joomla-ui-custom-elements",
+      "version": "0.4.1"
+    },
+    {
+      "name": "webcomponent.joomla-alert-legacy",
+      "type": "script",
+      "uri": "",
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "dependencies": [
+        "wcpolyfill"
+      ],
+      "package": "joomla-ui-custom-elements",
+      "version": "0.4.1"
+    },
+    {
+      "name": "webcomponent.joomla-alert",
+      "type": "script",
+      "uri": "vendor/joomla-custom-elements/joomla-alert.min.js",
+      "attributes": {
+        "type": "module"
+      },
+      "dependencies": [
+        "wcpolyfill"
+      ],
+      "package": "joomla-ui-custom-elements",
+      "version": "0.4.1"
+    },
+    {
+      "name": "webcomponent.joomla-tab",
+      "type": "style",
+      "uri": "vendor/joomla-custom-elements/joomla-tab.min.css",
+      "package": "joomla-ui-custom-elements",
+      "version": "0.4.1"
+    },
+    {
+      "name": "webcomponent.joomla-tab-legacy",
+      "type": "script",
+      "uri": "",
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "dependencies": [
+        "wcpolyfill"
+      ],
+      "package": "joomla-ui-custom-elements",
+      "version": "0.4.1"
+    },
+    {
+      "name": "webcomponent.joomla-tab",
+      "type": "script",
+      "uri": "vendor/joomla-custom-elements/joomla-tab.min.js",
+      "attributes": {
+        "type": "module"
+      },
+      "dependencies": [
+        "wcpolyfill"
+      ],
+      "package": "joomla-ui-custom-elements",
+      "version": "0.4.1"
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
     },
     {
       "name": "qrcode",
@@ -418,6 +571,33 @@
       "version": "1.4.4"
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "sa11y",
+      "type": "script",
+      "uri": "vendor/sa11y/sa11y.esm.min.js",
+      "importmap": true,
+      "package": "sa11y",
+      "version": "4.1.1"
+    },
+    {
+      "name": "sa11y-lang",
+      "type": "script",
+      "uri": "vendor/sa11y/en.js",
+      "importmap": true,
+      "description": "A placeholder asset which is later initialised by plugin, depending on active language.",
+      "package": "sa11y",
+      "version": "4.1.1"
+    },
+    {
+      "name": "sa11y",
+      "type": "style",
+      "uri": "vendor/sa11y/sa11y.min.css",
+      "package": "sa11y",
+      "version": "4.1.1"
+    },
+    {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
       "name": "fontawesome",
       "type": "style",
       "uri": "vendor/fontawesome-free/fontawesome.min.css",

@@ -31,10 +31,15 @@ trait StateBehaviorTrait
     /**
      * A state object
      *
+<<<<<<< HEAD
      * @var    State|\Joomla\Registry\Registry
      * @since  4.0.0
      *
      * @todo   Remove the State type hint in Joomla 7.0 since it will be removed see State class
+=======
+     * @var    State
+     * @since  4.0.0
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
      */
     protected $state = null;
 

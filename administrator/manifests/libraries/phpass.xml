@@ -8,7 +8,11 @@
 	<authorEmail>solar@openwall.com</authorEmail>
 	<authorUrl>https://www.openwall.com/phpass/</authorUrl>
 	<license>PD / GWC</license>
+<<<<<<< HEAD
 	<version>0.5.1</version>
+=======
+	<version>0.3</version>
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 	<packagerurl>https://www.openwall.com/phpass/</packagerurl>
 
 	<files folder="phpass">

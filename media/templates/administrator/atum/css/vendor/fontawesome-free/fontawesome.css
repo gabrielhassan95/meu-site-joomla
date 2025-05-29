@@ -6019,6 +6019,7 @@
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 .fa.fa-envelope-o {
   --fa: "";
   font-family: "Font Awesome 6 Free";
@@ -6122,16 +6123,24 @@
 
 .fa.fa-twitter-square {
   --fa: "";
+=======
+.fa.fa-dropbox, .fa.fa-stack-overflow, .fa.fa-instagram, .fa.fa-flickr, .fa.fa-adn, .fa.fa-bitbucket, .fa.fa-bitbucket-square, .fa.fa-tumblr, .fa.fa-tumblr-square, .fa.fa-apple, .fa.fa-windows, .fa.fa-android, .fa.fa-linux, .fa.fa-dribbble, .fa.fa-skype, .fa.fa-foursquare, .fa.fa-trello, .fa.fa-gratipay, .fa.fa-gittip {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .fa.fa-facebook-square {
   --fa: "";
+=======
+.fa.fa-yahoo, .fa.fa-google, .fa.fa-reddit, .fa.fa-reddit-square, .fa.fa-stumbleupon-circle, .fa.fa-stumbleupon, .fa.fa-delicious, .fa.fa-digg, .fa.fa-pied-piper-pp, .fa.fa-pied-piper-alt, .fa.fa-drupal, .fa.fa-joomla, .fa.fa-behance, .fa.fa-behance-square, .fa.fa-steam, .fa.fa-steam-square, .fa.fa-spotify, .fa.fa-deviantart, .fa.fa-soundcloud {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .fa.fa-thumbs-o-up {
   --fa: "";
   font-family: "Font Awesome 6 Free";
@@ -6152,16 +6161,24 @@
 
 .fa.fa-linkedin-square {
   --fa: "";
+=======
+.fa.fa-lastfm, .fa.fa-lastfm-square, .fa.fa-ioxhost, .fa.fa-angellist {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .fa.fa-github-square {
   --fa: "";
+=======
+.fa.fa-pinterest-p, .fa.fa-whatsapp, .fa.fa-viacoin, .fa.fa-medium, .fa.fa-y-combinator, .fa.fa-yc, .fa.fa-optin-monster, .fa.fa-opencart, .fa.fa-expeditedssl {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .fa.fa-lemon-o {
   --fa: "";
   font-family: "Font Awesome 6 Free";
@@ -6181,16 +6198,24 @@
 }
 
 .fa.fa-twitter, .fa.fa-facebook {
+=======
+.fa.fa-creative-commons, .fa.fa-gg, .fa.fa-gg-circle, .fa.fa-odnoklassniki, .fa.fa-odnoklassniki-square, .fa.fa-get-pocket, .fa.fa-wikipedia-w, .fa.fa-safari, .fa.fa-chrome, .fa.fa-firefox, .fa.fa-opera, .fa.fa-internet-explorer, .fa.fa-contao, .fa.fa-500px, .fa.fa-amazon {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .fa.fa-facebook-f {
   --fa: "";
+=======
+.fa.fa-houzz, .fa.fa-vimeo, .fa.fa-black-tie, .fa.fa-fonticons, .fa.fa-reddit-alien, .fa.fa-edge, .fa.fa-codiepie, .fa.fa-modx, .fa.fa-fort-awesome, .fa.fa-usb, .fa.fa-product-hunt, .fa.fa-mixcloud, .fa.fa-scribd {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .fa.fa-hdd-o {
   --fa: "";
   font-family: "Font Awesome 6 Free";
@@ -7016,6 +7041,9 @@
 }
 
 .fa.fa-superpowers, .fa.fa-wpexplorer, .fa.fa-meetup {
+=======
+.fa.fa-glide, .fa.fa-glide-g, .fa.fa-viadeo, .fa.fa-viadeo-square, .fa.fa-snapchat, .fa.fa-snapchat-ghost {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }

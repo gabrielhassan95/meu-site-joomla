@@ -14,6 +14,7 @@ ul.media-tree {
 }
 
 .media-disk {
+<<<<<<< HEAD
   inset-inline-start: 0;
   display: block;
   margin-block-end: 10px;
@@ -32,6 +33,17 @@ ul.media-tree {
 .media-drive {
   max-height: 75vh;
   overflow: auto;
+=======
+  position: sticky;
+  top: 75px;
+  left: 0;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.media-drive {
+  overflow-x: auto;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   background-color: $sidebar-drive-bg;
   border: 1px solid $border-color;
   + .media-drive {
@@ -93,8 +105,12 @@ ul.media-tree {
   &::after {
     content: none;
   }
+<<<<<<< HEAD
   &:hover,
   &:focus-visible {
+=======
+  &:hover {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
     cursor: pointer;
   }
 }
@@ -102,6 +118,7 @@ ul.media-tree {
 .media-tree-item a {
   display: block;
   padding: 0 7px;
+<<<<<<< HEAD
   overflow: hidden;
   line-height: $sidebar-tree-line-height;
   text-decoration: none;
@@ -117,6 +134,16 @@ ul.media-tree {
 .media-tree-item.active > a {
   &:hover,
   &:focus-visible {
+=======
+  line-height: $sidebar-tree-line-height;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.media-tree-item.active > a {
+  &:hover {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
     text-decoration: none;
     background-color: $sidebar-tree-item-hover-bg;
   }
@@ -136,7 +163,15 @@ ul.media-tree {
 }
 
 .item-name {
+<<<<<<< HEAD
   font-size: .9em;
+=======
+  display: inline-block;
+  overflow: hidden;
+  font-size: .9em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   vertical-align: middle;
 }
 

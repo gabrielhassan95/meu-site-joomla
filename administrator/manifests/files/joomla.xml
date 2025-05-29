@@ -6,8 +6,13 @@
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+<<<<<<< HEAD
 	<version>5.3.1</version>
 	<creationDate>2025-05</creationDate>
+=======
+	<version>5.3.0</version>
+	<creationDate>2025-04</creationDate>
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 	<description>FILES_JOOMLA_XML_DESCRIPTION</description>
 
 	<scriptfile>administrator/components/com_admin/script.php</scriptfile>

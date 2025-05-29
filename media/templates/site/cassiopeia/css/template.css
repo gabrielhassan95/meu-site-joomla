@@ -2219,7 +2219,10 @@ progress {
 }
 
 .form-control::file-selector-button {
+<<<<<<< HEAD
   margin: -.6rem -1rem;
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   color: var(--body-color);
   background-color: var(--tertiary-bg);
   pointer-events: none;
@@ -2227,6 +2230,10 @@ progress {
   border-style: solid;
   border-width: 0;
   border-inline-end-width: var(--border-width);
+<<<<<<< HEAD
+=======
+  margin: -.6rem -1rem;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   border-radius: 0;
   margin-inline-end: 1rem;
   padding: .6rem 1rem;
@@ -13307,13 +13314,20 @@ meter {
 }
 
 .back-to-top-link {
+<<<<<<< HEAD
   inset-inline-end: 1rem;
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   z-index: 10000;
   color: var(--cassiopeia-color-primary, #112855);
   pointer-events: all;
   background-color: var(--white, #fff);
   border: 1px solid var(--cassiopeia-color-primary, #112855);
   opacity: 0;
+<<<<<<< HEAD
+=======
+  inset-inline-end: 1rem;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   border-radius: .25rem;
   padding: .5em;
   transition: opacity .2s ease-in;
@@ -13505,12 +13519,16 @@ td .form-control {
   right: auto;
 }
 
+<<<<<<< HEAD
 [role="tooltip"]:not(.show)[id^="id-skip-"] {
   max-width: unset;
   right: auto;
 }
 
 [role="tooltip"]:not(.show)[id^="cbunpublish"] {
+=======
+[role="tooltip"]:not(.show)[id^="id-skip-"], [role="tooltip"]:not(.show)[id^="cbunpublish"] {
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   right: auto;
 }
 

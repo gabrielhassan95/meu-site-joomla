@@ -54,17 +54,26 @@ label.invalid {
 
 .button2-left {
   float: left;
+<<<<<<< HEAD
   background: url("../images/j_button2_left.png?v=174769") no-repeat;
+=======
+  background: url("../images/j_button2_left.png?v=174420") no-repeat;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   margin-left: 5px;
 }
 
 .button2-right {
   float: left;
+<<<<<<< HEAD
   background: url("../images/j_button2_right.png?v=174769") 100% 0 no-repeat;
+=======
+  background: url("../images/j_button2_right.png?v=174420") 100% 0 no-repeat;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   margin-left: 5px;
 }
 
 .button2-left .image {
+<<<<<<< HEAD
   background: url("../images/j_button2_image.png?v=174769") 100% 0 no-repeat;
 }
 
@@ -78,6 +87,21 @@ label.invalid {
 
 .button2-left .blank {
   background: url("../images/j_button2_blank.png?v=174769") 100% 0 no-repeat;
+=======
+  background: url("../images/j_button2_image.png?v=174420") 100% 0 no-repeat;
+}
+
+.button2-left .readmore, .button2-left .article {
+  background: url("../images/j_button2_readmore.png?v=174420") 100% 0 no-repeat;
+}
+
+.button2-left .pagebreak {
+  background: url("../images/j_button2_pagebreak.png?v=174420") 100% 0 no-repeat;
+}
+
+.button2-left .blank {
+  background: url("../images/j_button2_blank.png?v=174420") 100% 0 no-repeat;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 }
 
 div.tooltip {
@@ -90,7 +114,11 @@ div.tooltip {
 }
 
 div.tooltip h4 {
+<<<<<<< HEAD
   background: url("../images/selector-arrow.png?v=174769") no-repeat;
+=======
+  background: url("../images/selector-arrow.png?v=174420") no-repeat;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
   margin: -15px 0 0;
   padding: 15px 0 5px;
   font-size: 95%;

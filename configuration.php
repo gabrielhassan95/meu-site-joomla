@@ -1,10 +1,17 @@
 <?php
 class JConfig {
 	public $offline = false;
+<<<<<<< HEAD
 	public $offline_message = 'Este site está em manutenção.<br />Por favor, volte em breve.';
 	public $display_offline_message = 1;
 	public $offline_image = '';
 	public $sitename = 'joomla';
+=======
+	public $offline_message = 'Este site está em manutenção.<br>Por favor, volte em breve.';
+	public $display_offline_message = 1;
+	public $offline_image = '';
+	public $sitename = 'CursoJoomla';
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = 20;
@@ -18,7 +25,11 @@ class JConfig {
 	public $user = 'root';
 	public $password = '';
 	public $db = 'joomla';
+<<<<<<< HEAD
 	public $dbprefix = 'jommla_';
+=======
+	public $dbprefix = 'joomla_';
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 	public $dbencryption = 0;
 	public $dbsslverifyservercert = false;
 	public $dbsslkey = '';
@@ -27,7 +38,11 @@ class JConfig {
 	public $dbsslcipher = '';
 	public $force_ssl = 0;
 	public $live_site = '';
+<<<<<<< HEAD
 	public $secret = 'ZKVRPNYqmflkdJyF';
+=======
+	public $secret = 'LCOebFN2OlFnSrI5';
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 	public $gzip = false;
 	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
@@ -39,7 +54,11 @@ class JConfig {
 	public $mailonline = true;
 	public $mailer = 'mail';
 	public $mailfrom = 'ghsammour01@gmail.com';
+<<<<<<< HEAD
 	public $fromname = 'curso joomla';
+=======
+	public $fromname = 'CursoJoomla';
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = false;
 	public $smtpuser = '';
@@ -67,6 +86,7 @@ class JConfig {
 	public $session_handler = 'database';
 	public $shared_session = false;
 	public $session_metadata = true;
+<<<<<<< HEAD
 	public $memcached_persist = true;
 	public $memcached_compress = false;
 	public $memcached_server_host = 'localhost';
@@ -103,4 +123,6 @@ class JConfig {
 	public $asset_id = '1';
 	public $redis_server_auth = '';
 	public $session_redis_server_auth = '';
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 }

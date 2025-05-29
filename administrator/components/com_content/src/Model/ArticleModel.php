@@ -587,6 +587,7 @@ class ArticleModel extends AdminModel implements WorkflowModelInterface
                         ((isset($filters['published']) && $filters['published'] !== '') ? $filters['published'] : null)
                     )
                 );
+<<<<<<< HEAD
 
                 // If multiple categories are filtered, pick the first one to avoid loading all fields
                 $filteredCategories = $filters['category_id'] ?? null;
@@ -599,6 +600,9 @@ class ArticleModel extends AdminModel implements WorkflowModelInterface
                 }
 
                 $data->set('catid', $app->getInput()->getInt('catid', $selectedCatId));
+=======
+                $data->set('catid', $app->getInput()->getInt('catid', (!empty($filters['category_id']) ? $filters['category_id'] : null)));
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
 
                 if ($app->isClient('administrator')) {
                     $data->set('language', $app->getInput()->getString('language', (!empty($filters['language']) ? $filters['language'] : null)));
@@ -762,12 +766,15 @@ class ArticleModel extends AdminModel implements WorkflowModelInterface
             } elseif ($data['alias'] == $origTable->alias) {
                 $data['alias'] = '';
             }
+<<<<<<< HEAD
 
             if (!$this->workflowEnabled) {
                 $data['state'] = 0;
             } else {
                 $data['transition'] = '';
             }
+=======
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
         }
 
         // Automatic handling of alias for empty fields

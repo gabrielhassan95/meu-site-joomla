@@ -24,7 +24,11 @@ use Joomla\CMS\Factory;
 class GuidedtoursHelper
 {
     /**
+<<<<<<< HEAD
      * Load the translation files for a Guided Tour
+=======
+     * Load the translation files for an Guided Tour
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
      *
      * @param   string  $uid    Guided Tour Unique Identifier
      * @param   boolean $steps  Should tour steps language file be loaded

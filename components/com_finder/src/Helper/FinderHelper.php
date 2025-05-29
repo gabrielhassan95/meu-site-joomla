@@ -54,7 +54,11 @@ class FinderHelper
         $temp              = new \stdClass();
         $temp->input       = trim(strtolower((string) $searchquery->input));
         $entry             = new \stdClass();
+<<<<<<< HEAD
         $entry->searchterm = mb_substr(trim($temp->input), 0, 255);
+=======
+        $entry->searchterm = $temp->input;
+>>>>>>> 954ffb7afcbc309937911469236d138fc7d262f9
         $entry->query      = serialize($temp);
         $entry->md5sum     = md5($entry->query);
         $entry->hits       = 1;
